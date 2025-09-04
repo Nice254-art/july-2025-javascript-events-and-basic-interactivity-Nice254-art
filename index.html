@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive JavaScript Project</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>JavaScript Interactivity Demo</h1>
+
+  <!-- Part 1: Event Handling Example -->
+  <button id="clickBtn">Click Me</button>
+  <p id="message"></p>
+
+  <!-- Part 2: Interactive Features -->
+  <hr>
+  <h2>Light/Dark Mode Toggle</h2>
+  <button id="themeToggle">Toggle Theme</button>
+
+  <h2>Counter Game</h2>
+  <button id="incrementBtn">+ Increase</button>
+  <button id="decrementBtn">- Decrease</button>
+  <p>Counter Value: <span id="counter">0</span></p>
+
+  <h2>Collapsible FAQ</h2>
+  <div class="faq">
+    <button class="faq-toggle">What is JavaScript?</button>
+    <p class="faq-content">JavaScript is a programming language for the web!</p>
+  </div>
+
+  <!-- Part 3: Form Validation -->
+  <hr>
+  <h2>Registration Form</h2>
+  <form id="myForm">
+    <label>Name:</label>
+    <input type="text" id="name" placeholder="Enter name">
+    <small class="error" id="nameError"></small><br>
+
+    <label>Email:</label>
+    <input type="email" id="email" placeholder="Enter email">
+    <small class="error" id="emailError"></small><br>
+
+    <label>Password:</label>
+    <input type="password" id="password" placeholder="Enter password">
+    <small class="error" id="passwordError"></small><br>
+
+    <button type="submit">Submit</button>
+  </form>
+  <p id="formMessage"></p>
+
+  <script src="script.js"></script>
+</body>
+</html>
